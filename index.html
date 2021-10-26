@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather</title>
+    <link rel="icon" href="weather.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="search-box">
+        <form id="content">
+            <input type="text" name="input" class="input" placeholder="search cities here">
+            <button type="submit" name="search" class="search"><img src="search.png" alt=""></button>
+        </form>
+    </div>
+    <div><img class="imgIcon" src="Weather icon/clear sky.png" alt=""></div>
+    <div class="location">
+        <h1 class="location-timezone">Location</h1>
+        <h2 class="country">IN</h2>
+        <!--<p class="icon">icon</p>-->
+    </div>
+    <div class="temp">
+        <div class="deg-section">
+            <h2 class="temp-deg">Loading</h2>
+            <span><sup>o</sup>c</span>
+        </div>
+        <div class="temp-description">loading..</div>
+    </div>
+    <div class="moreData">
+        <div class="arr">
+            <div class="feel-like">
+                <div>feel like</div>
+                <div class="unitdiv">
+                    <div class="add-data">N/A</div>
+                    <span><sup>o</sup>C</span>
+                </div>
+            </div>
+            <div class="min-temp">
+                <div>min temp</div>
+                <div class="unitdiv">
+                    <div class="add-data">N/A</div>
+                    <span><sup>o</sup>C</span>
+                </div>
+            </div>
+            <div class="max-temp">
+                <div>max temp</div>
+                <div class="unitdiv">
+                    <div class="add-data">N/A</div>
+                    <span><sup>o</sup>C</span>
+                </div>
+            </div>
+        </div>
+        <div class="arr">
+            <div class="presure">
+                <div>pressure</div>
+                <div class="unitdiv">
+                    <div class="add-data">N/A</div>
+                    <span>hPa</span>
+                </div>
+            </div>
+            <div class="humidity">
+                <div>humidity</div>
+                <div class="unitdiv">
+                    <div class="add-data">N/A</div>
+                    <span>%</span>
+                </div>
+            </div>
+            <div class="wind-speed">
+                <div>wind speed</div>
+                <div class="unitdiv">
+                    <div class="add-data">N/A</div>
+                    <span>m/s</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="logic.js"></script>
+</body>
+
+</html>
